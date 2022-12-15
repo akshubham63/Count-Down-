@@ -1,0 +1,36 @@
+body{
+	width:100%;
+	background-color:#000000;
+}
+
+.clock,.clock1{
+	color:#17d4fe;
+	position:absolute;
+	box-shadow:2px 2px 20px 8px #17d4fe;
+	border-radius:20px;
+	padding:20px;
+}
+
+.clock{
+	top:70%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+.clock1{
+	top:30%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+[class*="clock"] > div{
+	display:inline-block;
+	text-align:center;
+	text-transform:uppercase;
+	margin:0 20px;
+	font-size:40px;
+}
+
+.clock-info > p{
+	text-shadow:3px 3px 20px #ffffff;
+}
